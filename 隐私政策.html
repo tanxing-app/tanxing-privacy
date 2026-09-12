@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>谈星 - 隐私政策</title>
+<style>
+:root {
+  --bg: #faf8f3;
+  --card: #ffffff;
+  --text: #1a1a2e;
+  --text-secondary: #555560;
+  --text-faint: #888899;
+  --gold: #b8860b;
+  --border: #e8e4d8;
+  --radius: 12px;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, "PingFang SC", "Helvetica Neue", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  padding: 24px 20px 48px;
+  max-width: 680px;
+  margin: 0 auto;
+}
+h1 { font-size: 24px; font-weight: 700; margin-bottom: 8px; }
+.updated { font-size: 13px; color: var(--text-faint); margin-bottom: 32px; }
+h2 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 28px;
+  margin-bottom: 12px;
+  color: var(--text);
+  border-left: 3px solid var(--gold);
+  padding-left: 10px;
+}
+p { font-size: 15px; color: var(--text-secondary); margin-bottom: 12px; }
+ul { padding-left: 20px; margin-bottom: 12px; }
+li { font-size: 15px; color: var(--text-secondary); margin-bottom: 6px; }
+strong { color: var(--text); font-weight: 600; }
+a { color: var(--gold); text-decoration: none; }
+.highlight {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  margin: 16px 0;
+}
+.highlight p { margin-bottom: 8px; }
+.highlight p:last-child { margin-bottom: 0; }
+.contact { margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--border); }
+.contact p { font-size: 14px; color: var(--text-faint); }
+</style>
+</head>
+<body>
+
+<h1>谈星 隐私政策</h1>
+<p class="updated">最后更新日期：2026年9月12日</p>
+
+<p>「谈星」（以下简称"本应用"）由<strong>北京谈星信息咨询部</strong>开发并运营。我们深知个人信息对您的重要性，本政策说明我们如何收集、使用和保护您的数据。使用本应用即表示您同意本政策。</p>
+
+<h2>一、我们收集哪些信息</h2>
+
+<div class="highlight">
+<p><strong>1. 生辰信息</strong></p>
+<p>您主动输入的出生年月日时、性别、出生地区域，用于排盘计算与 AI 解读。数据仅存储在您的设备本地（UserDefaults），不会上传至服务器。</p>
+</div>
+
+<div class="highlight">
+<p><strong>2. 占卜问题与梦境描述</strong></p>
+<p>您在使用塔罗、梅花易数、解梦、八字、黄历择日等功能时输入的问题或梦境描述，会发送至 AI 服务（DeepSeek）生成解读。发送内容仅包含您的输入文本及排盘结果，不含个人身份信息。</p>
+</div>
+
+<div class="highlight">
+<p><strong>3. AI 解读结果缓存</strong></p>
+<p>AI 生成的解读结果会缓存在您的设备本地，便于离线查看。缓存数据不会上传至任何服务器。</p>
+</div>
+
+<div class="highlight">
+<p><strong>4. 使用偏好</strong></p>
+<p>主题外观偏好、引导页完成状态、AI 问询次数计数等偏好设置，存储在设备本地 UserDefaults，不上传服务器。</p>
+</div>
+
+<div class="highlight">
+<p><strong>5. 本地分析数据</strong></p>
+<p>本应用记录功能使用次数等统计信息，用于改进产品体验。该数据<strong>仅存储在您的设备本地</strong>，不上传至任何服务器或第三方分析平台。</p>
+</div>
+
+<h2>二、我们不收集的信息</h2>
+<ul>
+<li>不收集您的姓名、手机号、邮箱等个人身份信息</li>
+<li>不收集设备标识符（IDFA/IDFV）</li>
+<li>不收集位置信息（出生区域由您手动选择）</li>
+<li>不接入第三方分析 SDK</li>
+<li>不接入第三方广告 SDK</li>
+<li>不进行用户画像或行为追踪</li>
+</ul>
+
+<h2>三、AI 服务数据处理</h2>
+<p>本应用的 AI 解读功能由 DeepSeek API 提供支持。当您使用 AI 解读时：</p>
+<ul>
+<li>您的占卜问题、排盘数据、梦境描述会发送至 DeepSeek 服务器进行处理</li>
+<li>发送的内容不包含您的出生日期等个人身份信息（出生信息仅用于本地排盘计算，结果以结构化数据形式发送）</li>
+<li>DeepSeek 的数据处理遵循其隐私政策</li>
+<li>识别到自伤、轻生等高风险内容时，本应用<strong>不会将此类内容发送至 AI 服务</strong>，而是直接在本地触发危机干预提示与热线转介</li>
+</ul>
+
+<h2>四、数据存储</h2>
+<ul>
+<li><strong>本地存储</strong>：生辰档案、AI 解读缓存、偏好设置、使用统计均存储在设备本地 UserDefaults</li>
+<li><strong>无服务器存储</strong>：本应用当前不运营用户数据库，您的数据不会存储在我们的服务器上</li>
+<li><strong>数据导出</strong>：您可在应用「设置」中导出您的命盘数据为文本或 JSON 文件，自行保管</li>
+<li><strong>数据清除</strong>：您可在应用「设置」中清除本地缓存数据，或通过卸载应用删除所有本地数据</li>
+</ul>
+
+<h2>五、未成年人保护</h2>
+<p>本应用对未成年人提供额外保护：</p>
+<ul>
+<li>未满 18 岁用户自动开启青少年模式，限制访问深度报告与付费功能</li>
+<li>涉及婚姻等成人话题的 AI 解读对未成年人关闭</li>
+<li>识别到未成年人可能面临的心理危机时，优先转介 12355 青少年热线</li>
+</ul>
+
+<h2>六、数据安全</h2>
+<p>本应用采取以下措施保护您的数据：</p>
+<ul>
+<li>AI 服务密钥通过构建时注入，不硬编码在应用源码中</li>
+<li>AI 请求通过 HTTPS 加密传输</li>
+<li>危机干预内容不上网，完全在本地处理</li>
+<li>所有本地数据可通过卸载应用彻底删除</li>
+</ul>
+
+<h2>七、您的权利</h2>
+<ul>
+<li><strong>知情权</strong>：通过本政策了解数据使用方式</li>
+<li><strong>查看权</strong>：在应用内查看已存储的生辰档案与 AI 解读记录</li>
+<li><strong>导出权</strong>：在设置中导出您的命盘数据</li>
+<li><strong>删除权</strong>：在设置中清除数据，或卸载应用删除所有数据</li>
+<li><strong>撤回权</strong>：停止使用对应功能即停止相应数据的生成与发送</li>
+</ul>
+
+<h2>八、政策更新</h2>
+<p>本政策可能随产品迭代进行更新。重大变更将在应用内通知您。继续使用即视为接受更新后的政策。</p>
+
+<h2>九、免责声明</h2>
+<p>本应用所有占卜结果仅供娱乐与参考，请理性看待。AI 解读由模型生成，不代表专业建议。涉及健康、法律、投资等问题，请咨询持牌专业人士。</p>
+
+<div class="contact">
+<h2>联系我们</h2>
+<p>运营主体：北京谈星信息咨询部</p>
+<p>官网：tanxing.net</p>
+<p>邮箱：<a href="mailto:support@tanxing.net">support@tanxing.net</a></p>
+</div>
+
+</body>
+</html>
